@@ -2,7 +2,12 @@
 export const LoginPage = () => {
     return (
         <>
-        <p>LoginPage</p>
+        <div>
+         <p className="text-white font-extrabold">TaskFlow</p>
+         <p>Sign in to your account</p>
+        </div>
+       
+
         </>
     )
 }
