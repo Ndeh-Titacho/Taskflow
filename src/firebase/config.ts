@@ -13,7 +13,6 @@ const firebaseConfig = {
 };
 
 //INITIALIZE FIREBASE
-console.log("Firebase api key", import.meta.env.VITE_FIREBASE_API_KEY)
 const app = initializeApp(firebaseConfig);
 
 
